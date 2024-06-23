@@ -4,7 +4,7 @@
 }
 
 body{
- 
+ background-color: aliceblue;
   .ner{
     display: grid;
     grid-template-columns: 100px repeat(4,150px) 60px;
@@ -58,6 +58,9 @@ body{
   }
   .orange{ 
   background-color: orange;
+  border-style: double;
+  text-shadow: 3px -1px rgb(124, 124, 124);
+  box-shadow: 5px 5px rgb(255, 128, 0);
   }
   .purple{
     background-color: purple;
@@ -68,14 +71,12 @@ body{
   }
 }
 
-.green :hover{
-   background-color: #00c600;
-   
-}
 
 .main{
 font-size: x-large;
 padding: 30px;
+padding: 2%;
+margin-bottom: 10%;
 }
 
 /* --------------------------------------------------- */
